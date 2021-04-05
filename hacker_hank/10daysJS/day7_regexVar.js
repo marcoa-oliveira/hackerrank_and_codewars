@@ -12,11 +12,11 @@ function regexVar() {
 }
 
 //  ^ => primeiro item encontrado
-// () => armazena o valor encontrado que atenda a especificação interna
-// [aeiou] => flag de especificação (itens que contenham alguma das strings)
+// () => armazena o valor encontrado que atenda a especificaÃ§Ã£o interna
+// [aeiou] => flag de especificaÃ§Ã£o (itens que contenham alguma das strings)
 // . => busca todas as strings a seguir
-// + => para 1 ou mais ocorrências (isso garante que str.length > 3)
+// + => para 1 ou mais ocorrÃªncias (isso garante que str.length > 3)
 // \1 => corresponde aos resultados armazenados anteriormente, no caso 1. 
-    // \2 se usarmos 2, faremos referência a duas instâncias de resultados e assim por diante 
+    // \2 se usarmos 2, faremos referÃªncia a duas instÃ¢ncias de resultados e assim por diante 
 
-//  $ garante que o item correspondente está no final da sequência
+//  $ garante que o item correspondente estÃ¡ no final da sequÃªncia
